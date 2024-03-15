@@ -1,0 +1,173 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navigation Bar Styles */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+/* Hero Section Styles */
+.hero1 {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+.hero1 h1 {
+    font-size: 3rem;
+    color: #f9a825;
+}
+.hero1 p {
+    font-size: 1.5rem;
+    color: #f9a825;
+}
+
+/* Package Cards */
+.package-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+.package-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.package-card h3 {
+    margin-top: 0;
+    color: #333;
+}
+.package-card button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.package-card button:hover {
+    background-color: #45a049;
+}
+
+/* Form Styles */
+form {
+    margin-top: 20px;
+}
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Collection Cards */
+.collection-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+.collection-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.collection-card h3 {
+    margin-top: 0;
+    color: #333;
+}
+.collection-card button {
+    background-color: #f9a825;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.collection-card button:hover {
+    background-color: #c88719;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+footer p {
+    margin: 0;
+}
+
+/* Colorful backgrounds */
+.colorful-bg1 {
+    background-color: yellowgreen; /* Red */
+}
+
+.colorful-bg2 {
+    background-color: #66ccff; /* Light Blue */
+}
+
+.colorful-bg3 {
+    background-color: #ffcc66; /* Yellow */
+}
+
+.colorful-bg4 {
+    background-color: #99ff99; /* Light Green */
+}
+
+.colorful-bg5 {
+    background-color: blanchedalmond; /* Pink */
+}
